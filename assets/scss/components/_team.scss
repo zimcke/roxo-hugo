@@ -10,14 +10,14 @@
     }
     &-image{
       position: absolute;
-      width: 100px; height: 100px;
+      width: 150px; height: 150px;
       border-radius: 50%;
       overflow: hidden;
       left: 30px; top: 0;
-      transform: translateY(-50%);
+      transform: translateY(-70%);
       @include tablet{
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-70%, -70%);
       }
     }
     &-content{

@@ -23,6 +23,7 @@ body {
   p{
     font-size: 20px;
     font-weight: 300;
+    color: $text-color-dark;
   }
 }
 
@@ -36,16 +37,16 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   -webkit-appearance: none;
-  height: 42px;
+  color: $text-color-dark;
   &:focus{
     box-shadow: none;
     background: transparent;
     border-color: $text-color;
+    color: $text-color-dark;
   }
 }
 
 select.form-control{
-  height: 42px !important;
   position: relative;
 }
 

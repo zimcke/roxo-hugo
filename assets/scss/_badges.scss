@@ -1,0 +1,13 @@
+.badge{
+  display: inline-block;
+}
+
+.badge-primary{
+  background: $primary-color;
+  color: $white;
+}
+
+.badge-secondary{
+  background: $secondary-color;
+  color: $white;
+}

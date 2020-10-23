@@ -23,8 +23,8 @@
       }
       span{
         font-family: $secondary-font;
-        color: $primary-color;
-        display: block;
+        //color: $primary-color;
+        //display: block;
         margin-bottom: 10px;
       }
       h3{
@@ -195,6 +195,12 @@
         @include tablet{
           width: 100%;
         }
+      }
+    }
+    &-banner-image{
+      margin-bottom: 30px;
+      img{
+        width: 100%;
       }
     }
     &-description{
