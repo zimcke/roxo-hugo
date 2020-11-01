@@ -205,8 +205,14 @@
     }
     &-description{
       margin-bottom: 50px;
+      font-weight: 300;
       p{
         margin-bottom: 30px;
+        color: $text-color-dark;
+      }
+      a{
+        color: $primary-color;
+        font-weight: 400;
       }
     }
     &-action{

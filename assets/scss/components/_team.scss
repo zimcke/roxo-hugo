@@ -33,6 +33,13 @@
         margin-bottom: 20px;
         font-weight: 300;
       }
+      &-bio{
+        text-align: justify;
+        text-justify: inter-word;
+        p{
+          font-style: italic;
+        }
+      }
     }
     &-social{
       margin: 0;
