@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function() {
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Thanks! Contact form is submitted successfully.";
+    status.innerHTML = "Thank you! Your message has been sent. We'll contact you soon.";
   }
 
   function error() {
@@ -14,12 +14,13 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   // handle the form submission event
-
-  form.addEventListener("submit", function(ev) {
-    ev.preventDefault();
-    var data = new FormData(form);
-    ajax(form.method, form.action, data, success, error);
-  });
+  if(form != null){
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  }
 });
 
 // helper function for sending an AJAX request
