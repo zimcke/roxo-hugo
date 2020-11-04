@@ -5,6 +5,14 @@
     position: relative;
     margin-bottom: 30px;
     transition: all 0.3s ease-in;
+    a{
+      color: $text-color;
+      transition: 0.3s ease;
+      &:hover{
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
     &-thumb{
       img{
         width: 100%;
